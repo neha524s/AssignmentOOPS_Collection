@@ -4,6 +4,7 @@ using System.Text;
 
 namespace HRLib
 {
+    //Commented to check on github.
     public class ConfirmEmployee : Employee
     {
         private double basic;

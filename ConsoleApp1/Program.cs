@@ -18,6 +18,11 @@ namespace ConsoleApp1
                 ConfirmEmployee e2 = new ConfirmEmployee(10000000, "Dev", "Neha", "Pune");
                 Console.WriteLine($"Your Netsalary is : {e2.CalculateSalary()}");
                 Console.WriteLine(e2.ToString());
+
+
+                ConfirmEmployee e3 = new ConfirmEmployee(35675000, "Dev", "Neha", "Pune");
+                Console.WriteLine($"Your Netsalary is : {e3.CalculateSalary()}");
+                Console.WriteLine(e3.ToString());
             }
             catch (BasicException ex)
             {
